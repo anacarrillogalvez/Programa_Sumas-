@@ -4,10 +4,6 @@ n2 = input("¿Dime el segundo número?")
 print (n1+n2)
 
 
-try:
-  n1 = int(input("¿Dime el primer número?"))
-except ValueError:
-        print("El valor introducido no es un número. Intenta de nuevo")
 
 
 while True:
